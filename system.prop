@@ -1,3 +1,6 @@
+# Bluetooth
+qcom.bluetooth.soc=smd
+
 # Radio
 rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 ril.subscription.types=NV,RUIM
@@ -8,6 +11,3 @@ ro.telephony.get_imsi_from_sim=true
 ro.telephony.ril.config=needPinPukReads
 ro.ril.force_eri_from_xml=true
 telephony.lteOnCdmaDevice=1
-
-# Bluetooth
-qcom.bluetooth.soc=smd
