@@ -20,11 +20,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from vs985 device
 $(call inherit-product, device/lge/vs985/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common ResurrectionRemix stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := vs985
-PRODUCT_NAME := lineage_vs985
+PRODUCT_NAME := rr_vs985
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-VS985
 PRODUCT_MANUFACTURER := LGE
