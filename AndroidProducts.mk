@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_vs985.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_vs985-userdebug \
+    aosp_vs985-eng \
+    aosp_vs985-user
